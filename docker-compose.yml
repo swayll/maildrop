@@ -7,4 +7,4 @@ services:
       - "80:5000"
       - "25:25"
     environment:
-      - DOMAIN=yourdomain.com
+      - DOMAIN=${DOMAIN}
